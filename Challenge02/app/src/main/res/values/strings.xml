@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Challenge02</string>
+    <string name="stopsign">Stop Sign</string>
+    <string name="clock">Clock</string>
+    <string name="arrow">Arrow</string>
+    <string name="globe">Globe</string>
+</resources>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.palmdigital.challenge02.MainActivity">
+
+    <TextView
+        android:id="@+id/stopSign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/stopsign" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="102dp"
+        android:contentDescription="@string/stopsign"
+        app:srcCompat="@drawable/stopsign" />
+
+    <TextView
+        android:id="@+id/clock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/clock"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="118dp" />
+
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:contentDescription="@string/clock"
+        app:srcCompat="@drawable/clock"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="137dp" />
+
+    <TextView
+        android:id="@+id/arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="@string/arrow"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="245dp" />
+
+    <ImageView
+        android:id="@+id/image3"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:contentDescription="@string/arrow"
+        app:srcCompat="@drawable/arrow"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="264dp" />
+
+    <TextView
+        android:id="@+id/globe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/globe"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="378dp" />
+
+    <ImageView
+        android:id="@+id/image4"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:contentDescription="@string/globe"
+        app:srcCompat="@drawable/globe"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="407dp" />
+</LinearLayout>

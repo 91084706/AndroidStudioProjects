@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.example.palmdigital.resources06.MainActivity">
+
+    <TableRow
+        android:layout_width="270dp"
+        android:layout_height="199dp">
+
+        <ImageView
+            android:id="@+id/science"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="40dp"
+            app:srcCompat="@drawable/science" />
+
+        <ImageView
+            android:id="@+id/tech"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="40dp"
+            app:srcCompat="@drawable/computer" />
+
+        <ImageView
+            android:id="@+id/gear"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="40dp"
+            app:srcCompat="@drawable/gear" />
+
+        <ImageView
+            android:id="@+id/art"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="40dp"
+            app:srcCompat="@drawable/art" />
+
+        <ImageView
+            android:id="@+id/calculator"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="40dp"
+            app:srcCompat="@drawable/calculator" />
+
+    </TableRow>
+    <TableRow
+        android:layout_width="270dp"
+        android:layout_height="199dp">
+
+        <ImageView
+            android:id="@+id/science2"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="40dp"
+            app:srcCompat="@drawable/science" />
+
+        <ImageView
+            android:id="@+id/tech2"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="40dp"
+            app:srcCompat="@drawable/computer" />
+
+        <ImageView
+            android:id="@+id/gear2"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="40dp"
+            app:srcCompat="@drawable/gear" />
+
+        <ImageView
+            android:id="@+id/art2"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="40dp"
+            app:srcCompat="@drawable/art" />
+
+        <ImageView
+            android:id="@+id/calculator2"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="40dp"
+            app:srcCompat="@drawable/calculator" />
+
+    </TableRow>
+    <TableRow
+        android:layout_width="270dp"
+        android:layout_height="199dp">
+
+        <ImageView
+            android:id="@+id/science3"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="40dp"
+            app:srcCompat="@drawable/science" />
+
+        <ImageView
+            android:id="@+id/tech3"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="40dp"
+            app:srcCompat="@drawable/computer" />
+
+        <ImageView
+            android:id="@+id/gear3"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="40dp"
+            app:srcCompat="@drawable/gear" />
+
+        <ImageView
+            android:id="@+id/art3"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="40dp"
+            app:srcCompat="@drawable/art" />
+
+        <ImageView
+            android:id="@+id/calculator3"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="40dp"
+            app:srcCompat="@drawable/calculator" />
+
+    </TableRow>
+    <TableRow
+        android:layout_width="270dp"
+        android:layout_height="199dp">
+
+        <ImageView
+            android:id="@+id/science4"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="40dp"
+            app:srcCompat="@drawable/science" />
+
+        <ImageView
+            android:id="@+id/tech4"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="40dp"
+            app:srcCompat="@drawable/computer" />
+
+        <ImageView
+            android:id="@+id/gear4"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="40dp"
+            app:srcCompat="@drawable/gear" />
+
+        <ImageView
+            android:id="@+id/art4"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="40dp"
+            app:srcCompat="@drawable/art" />
+
+        <ImageView
+            android:id="@+id/calculator4"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="40dp"
+            app:srcCompat="@drawable/calculator" />
+
+    </TableRow>
+
+
+
+</TableLayout>
