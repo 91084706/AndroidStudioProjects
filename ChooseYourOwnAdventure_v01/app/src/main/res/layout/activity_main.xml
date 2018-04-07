@@ -58,14 +58,18 @@
             android:layout_width="wrap_content"
             android:layout_height="150dp"
             android:layout_weight="1"
-            android:text="Wake Up" />
+            android:background="@android:drawable/editbox_background_normal"
+            android:text="Wake Up"
+            android:textSize="20sp" />
 
         <Button
             android:id="@+id/buttonRight_Explore"
             android:layout_width="wrap_content"
             android:layout_height="150dp"
             android:layout_weight="1"
-            android:text="Explore" />
+            android:background="@android:drawable/editbox_background_normal"
+            android:text="Explore"
+            android:textSize="20sp" />
     </LinearLayout>
 
 </LinearLayout>

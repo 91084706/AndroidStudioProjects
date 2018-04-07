@@ -54,17 +54,21 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/buttonLeftYes"
+            android:id="@+id/buttonLeft_Yes"
             android:layout_width="wrap_content"
             android:layout_height="150dp"
             android:layout_weight="1"
-            android:text="Yes" />
+            android:background="@android:drawable/editbox_background_normal"
+            android:text="Yes"
+            android:textSize="20sp" />
 
         <Button
-            android:id="@+id/buttonRightHeckYes"
+            android:id="@+id/buttonRight_HeckYes"
             android:layout_width="wrap_content"
             android:layout_height="150dp"
             android:layout_weight="1"
-            android:text="Heck Yes" />
+            android:background="@android:drawable/editbox_background_normal"
+            android:text="Heck Yes"
+            android:textSize="20sp" />
     </LinearLayout>
 </LinearLayout>

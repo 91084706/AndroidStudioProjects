@@ -1,9 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="?android:attr/colorFocusedHighlight"
+    android:orientation="vertical"
     tools:context="com.example.palmdigital.chooseyourownadventure_v01.BackyardActivity">
 
-</android.support.constraint.ConstraintLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:id="@+id/tvTitleBackyard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose Your Own Adventure_v01"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:id="@+id/tvStoryBackyard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="As you walk into the backyard a net scoops you up and a giant takes you to a boiling pot of water."
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <TextView
+        android:id="@+id/tvQuestionBackyard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="As the man starts to prepare you as soup, do you...'Scream' or 'Faint'?"
+        android:textAlignment="center"
+        android:textSize="30dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonLeft_Scream"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:background="@android:drawable/editbox_background_normal"
+            android:text="Scream"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/buttonRight_Faint"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:background="@android:drawable/editbox_background_normal"
+            android:text="Faint"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</LinearLayout>
