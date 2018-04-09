@@ -10,7 +10,7 @@
 
     <Space
         android:layout_width="match_parent"
-        android:layout_height="25dp" />
+        android:layout_height="20dp" />
 
     <TextView
         android:id="@+id/tvTitleToilet"
@@ -22,7 +22,7 @@
 
     <Space
         android:layout_width="match_parent"
-        android:layout_height="25dp" />
+        android:layout_height="20dp" />
 
     <TextView
         android:id="@+id/tvStoryToilet"
@@ -34,7 +34,7 @@
 
     <Space
         android:layout_width="match_parent"
-        android:layout_height="25dp" />
+        android:layout_height="20dp" />
 
     <TextView
         android:id="@+id/tvQuestionToilet"
@@ -46,7 +46,7 @@
 
     <Space
         android:layout_width="match_parent"
-        android:layout_height="25dp" />
+        android:layout_height="20dp" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -55,8 +55,8 @@
 
         <Button
             android:id="@+id/buttonLeft_Yes"
-            android:layout_width="wrap_content"
-            android:layout_height="150dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             android:layout_weight="1"
             android:background="@android:drawable/editbox_background_normal"
             android:text="Yes"
@@ -64,8 +64,8 @@
 
         <Button
             android:id="@+id/buttonRight_HeckYes"
-            android:layout_width="wrap_content"
-            android:layout_height="150dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             android:layout_weight="1"
             android:background="@android:drawable/editbox_background_normal"
             android:text="Heck Yes"

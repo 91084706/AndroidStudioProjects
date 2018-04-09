@@ -4,16 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/darker_gray"
+    android:background="@color/colorAccent"
     android:orientation="vertical"
-    tools:context="com.example.palmdigital.chooseyourownadventure_v01.WakeUpActivity">
+    tools:context="com.example.palmdigital.chooseyourownadventure_v01.FaintActivity">
 
     <Space
         android:layout_width="match_parent"
-        android:layout_height="25dp" />
+        android:layout_height="20dp" />
 
     <TextView
-        android:id="@+id/tvTitleWakeUp"
+        android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Choose Your Own Adventure_v01"
@@ -22,13 +22,13 @@
 
     <Space
         android:layout_width="match_parent"
-        android:layout_height="25dp" />
+        android:layout_height="20dp" />
 
     <TextView
-        android:id="@+id/tvStoryWakeUp"
+        android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="You wake up and have a boring day."
+        android:text="You made a delicious soup! Yum!"
         android:textAlignment="center"
         android:textSize="25sp" />
 
@@ -37,7 +37,7 @@
         android:layout_height="20dp" />
 
     <TextView
-        android:id="@+id/tvStoryWakeUp2"
+        android:id="@+id/textView3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="The end."

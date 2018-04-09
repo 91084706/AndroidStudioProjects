@@ -55,8 +55,8 @@
 
         <Button
             android:id="@+id/buttonLeft_Scream"
-            android:layout_width="wrap_content"
-            android:layout_height="150dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             android:layout_weight="1"
             android:background="@android:drawable/editbox_background_normal"
             android:text="Scream"
@@ -64,8 +64,8 @@
 
         <Button
             android:id="@+id/buttonRight_Faint"
-            android:layout_width="wrap_content"
-            android:layout_height="150dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             android:layout_weight="1"
             android:background="@android:drawable/editbox_background_normal"
             android:text="Faint"

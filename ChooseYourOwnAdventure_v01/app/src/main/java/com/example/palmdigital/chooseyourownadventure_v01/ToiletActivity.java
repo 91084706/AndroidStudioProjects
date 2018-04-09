@@ -1,5 +1,6 @@
 package com.example.palmdigital.chooseyourownadventure_v01;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -16,8 +17,17 @@ public class ToiletActivity extends AppCompatActivity implements View.OnClickLis
         buttonHeckYesObject.setOnClickListener(this);
         buttonYesObject.setOnClickListener(this);
     }
-    public void OnClick (View v)
+    public void onClick (View v)
     {
-        if ()
+        if (v.getId() == R.id.buttonRight_HeckYes)
+        {
+           Intent i = new Intent(this, YesAndHeckYesActivity.class);
+           startActivity(i);
+        }
+        else
+        {
+            Intent i = new Intent(this, YesAndHeckYesActivity.class);
+            startActivity(i);
+        }
     }
 }
