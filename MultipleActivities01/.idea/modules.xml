@@ -3,9 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MultipleActivities01.iml" filepath="$PROJECT_DIR$/MultipleActivities01.iml" />
-      <module fileurl="file://C:\Users\palmdigital\AndroidStudioProjects\MultipleActivities01\MultipleActivities01.iml" filepath="C:\Users\palmdigital\AndroidStudioProjects\MultipleActivities01\MultipleActivities01.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://C:\Users\palmdigital\AndroidStudioProjects\MultipleActivities01\app\app.iml" filepath="C:\Users\palmdigital\AndroidStudioProjects\MultipleActivities01\app\app.iml" />
     </modules>
   </component>
 </project>
